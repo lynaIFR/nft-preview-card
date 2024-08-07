@@ -4,6 +4,7 @@
     --dark-blue-mainBG: hsl(217, 54%, 11%);
     --dark-blue-card: hsl(216, 50%, 16%);
     --dark-blue-line: hsl(215, 32%, 27%);
+    --dark-blue-shadow: hsl(217, 53%, 7%);
     --White: hsl(0, 0%, 100%);
 }
   
@@ -29,6 +30,7 @@ body {
 }
 
 .container {
+    width: 300px;
     background-color: var(--dark-blue-card);
     display: flex;
     flex-direction: column;
@@ -39,21 +41,20 @@ body {
     transform: translate(-50%, -50%);
     padding: 1rem;
     border-radius: 10px;
+    box-shadow: 0 0 100px 20px var(--dark-blue-shadow);
 }
 
 .card {
-    max-width: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 1rem;
-    
 }
 
 .card-head {
     display: grid;
-    max-width: 400px;
+    max-width: 300px;
     border-radius: 7px;
 }
 

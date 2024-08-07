@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL](https://your-solution-url.com)
-- [Live site URL](https://your-live-site-url.com)
+- [Solution URL](https://www.frontendmentor.io/solutions/nft-card-using-flexbox-Cz7oLbgX2K)
+- [Live site URL](https://lynaifr.github.io/nft-preview-card/)
 
 ## My process
 
